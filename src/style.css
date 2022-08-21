@@ -1,0 +1,187 @@
+/* Removing default extra margins and paddign around html */
+/* And global font */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif; 
+}
+
+
+/* Default styling for placeholder texts */
+::-webkit-input-placeholder {
+    color: gray;
+    font-size: 11pt;
+    font-weight: 700;
+ }
+
+
+/* ---------------------------------------------------------------- */
+
+/* NAVIGATION BAR CSS */
+
+/* ---------------------------------------------------------------- */
+
+nav {
+    overflow: hidden;
+    background-color: white;
+    font-family: Arial;
+    color: black;
+    height: 6.5vh;
+    display: flex;
+    padding: 8px;
+    align-items: center;
+}
+
+
+nav a {
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+    height: 100px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+nav button .dropbtn {
+    display: flex;
+    align-items: stretch;
+}
+
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+    
+  }
+  
+  /* Dropdown button */
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: #04AA6D;
+    font-weight: bold;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0;
+    height: 100px;
+  
+  }
+  
+
+  nav a:not(.w3c-logo):hover, .dropdown:hover .dropbtn {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+ 
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------- */
+
+/* Learn To Code Section CSS */
+
+/* ---------------------------------------------------------------- */
+
+
+  .ltc-container {
+    background-color: #282A35;
+    height: 55vh;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .ltc-container .ltc-content{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    align-items: center;
+    
+
+  }
+
+  /* LearnToCode - Search Bar */
+.ltc-content form.searchBar input{
+  
+    width: 23vw;
+    height: 5vh;
+    border-radius: 50px 0px 0px 50px;
+    border-style: none;
+}
+
+.ltc-content form.searchBar button {
+    
+    height: 5vh;
+    width: 6vw;
+    border-radius: 0px 50px 50px 0px;
+    border-style: none;
+    background-color: #04AA6D;;
+}
+  
+
+
+
+
+
+/* ---------------------------------------------------------------- */
+
+/* HTML-Section CSS */
+
+/* ---------------------------------------------------------------- */
+
+
+.HTML-container {
+    background-color: #D9EEE1;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    
+  }
+  .HTML-container .HTML-content{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    align-items: center;
+    
+
+  }
