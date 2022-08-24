@@ -793,7 +793,7 @@ pre span{
 }
 /*Exercises and quizzes section*/
 .exer{
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 50px;
     background: #282A35;
   } 
@@ -834,3 +834,17 @@ pre span{
   .quiz-1 .course-button:hover{
     background-color: #000000;
   }
+
+  /* HOw to section */
+
+
+.vl-howto{
+  
+  border-left: 50px solid #282A35;
+  height: 80px;
+  position: bottom;
+  bottom: 90px;
+  
+  margin-left: 25px;
+}
+
